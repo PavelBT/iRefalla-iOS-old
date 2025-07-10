@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4A243119-2441-4163-A4F7-E12554A73323"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B28666A8-6FC0-4778-91E7-D010376500C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.m"
+            timestampString = "517852984.863978"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "+defaultSendButtonItem"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0363B49A-F97C-45FD-B831-66853A28399D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iRefalla/MesaageCell.swift"
+            timestampString = "528789422.196697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "messageTextView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0363B49A-F97C-45FD-B831-66853A28399D - b0da9f0dcfb0d0c6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __ObjC.UITextView in variable initialization expression of iRefalla.ChatlogCell.messageTextView : __ObjC.UITextView"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756394.564106"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "0363B49A-F97C-45FD-B831-66853A28399D - ec4152df2cdc0ed5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iRefalla.ChatlogCell.messageTextView.getter : __ObjC.UITextView"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756394.566426"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "0363B49A-F97C-45FD-B831-66853A28399D - c831f9eea2b5b366"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iRefalla.ChatlogCell.init(frame: __C.CGRect) -&gt; iRefalla.ChatlogCell"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756394.56861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "0363B49A-F97C-45FD-B831-66853A28399D - 43c24d00e76dbe38"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iRefalla.ChatlogCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;iRefalla.ChatlogCell&gt;"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756394.570354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21A2BA64-D6B9-4C68-BFE1-F9C37E4C8469"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iRefalla/MesaageCell.swift"
+            timestampString = "528789422.196769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "textBubbleView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "21A2BA64-D6B9-4C68-BFE1-F9C37E4C8469 - f3b6c2d430784a36"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __ObjC.UIView in variable initialization expression of iRefalla.ChatlogCell.textBubbleView : __ObjC.UIView"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756475.062651"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "21A2BA64-D6B9-4C68-BFE1-F9C37E4C8469 - e84e505899bdacdb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iRefalla.ChatlogCell.textBubbleView.getter : __ObjC.UIView"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756475.064416"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "21A2BA64-D6B9-4C68-BFE1-F9C37E4C8469 - c831f9eea2b5b24f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iRefalla.ChatlogCell.init(frame: __C.CGRect) -&gt; iRefalla.ChatlogCell"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756475.06611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "215">
+               </Location>
+               <Location
+                  uuid = "21A2BA64-D6B9-4C68-BFE1-F9C37E4C8469 - 43c24d00e76dbf11"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iRefalla.ChatlogCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;iRefalla.ChatlogCell&gt;"
+                  moduleName = "iRefalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbalderrama/Dropbox/X-Code%20Project/iRefalla/iRefalla/MesaageCell.swift"
+                  timestampString = "528756475.068235"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "150">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A46CCBC-57E8-4B8A-A8C8-F9B3F62CBF32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iRefalla/PDFViewController.swift"
+            timestampString = "539034452.689401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "loadViewPDF()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7C5A009-2AF2-45D7-BCBD-7355F005D74D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iRefalla/ParseManager.swift"
+            timestampString = "554349974.259689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getAll(limit:page:order:forceServer:completition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

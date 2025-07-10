@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static WMSManager.getWMSLayer(layers:filter:style:):WMSService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapTilesViewController.mapView(_:annotationView:calloutAccessoryControlTapped:):MapTilesViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static WFSManager.getFeatures(layerName:filter:completion:):GeoserverManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AnnotationButton.getButton():MapAnnotation.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

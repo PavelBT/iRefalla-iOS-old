@@ -1,0 +1,6 @@
+framework module TKImageShowing {
+  umbrella header "TKImageShowing-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,156 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Bolts-Swift (1.5.0)
+  - Bolts/Tasks (1.9.1)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CropViewController (2.7.4)
+  - DKCamera (1.6.7)
+  - DKImagePickerController (4.3.9):
+    - DKImagePickerController/Camera (= 4.3.9)
+    - DKImagePickerController/Core (= 4.3.9)
+    - DKImagePickerController/ImageDataManager (= 4.3.9)
+    - DKImagePickerController/InlineCamera (= 4.3.9)
+    - DKImagePickerController/PhotoEditor (= 4.3.9)
+    - DKImagePickerController/PhotoGallery (= 4.3.9)
+    - DKImagePickerController/Resource (= 4.3.9)
+  - DKImagePickerController/Camera (4.3.9):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.3.9):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.9)
+  - DKImagePickerController/InlineCamera (4.3.9):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.3.9):
+    - CropViewController (~> 2.5)
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoGallery (4.3.9):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.9)
+  - DKPhotoGallery (0.0.19):
+    - DKPhotoGallery/Core (= 0.0.19)
+    - DKPhotoGallery/Model (= 0.0.19)
+    - DKPhotoGallery/Preview (= 0.0.19)
+    - DKPhotoGallery/Resource (= 0.0.19)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - Parse (1.19.4):
+    - Parse/Core (= 1.19.4)
+  - Parse/Core (1.19.4):
+    - Bolts/Tasks (= 1.9.1)
+  - ParseLiveQuery (2.8.1):
+    - Bolts-Swift (~> 1.5.0)
+    - Parse (~> 1.19.0)
+    - Starscream (~> 4.0.4)
+  - PDFReader (2.5.1)
+  - SDWebImage (5.2.5):
+    - SDWebImage/Core (= 5.2.5)
+  - SDWebImage/Core (5.2.5)
+  - Starscream (4.0.6)
+  - SwiftyGif (5.4.5)
+  - SwiftyJSON (5.0.1)
+  - TKImageShowing (1.1.0):
+    - SDWebImage (~> 5.2.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Charts
+  - DKImagePickerController
+  - MRProgress
+  - Parse
+  - ParseLiveQuery
+  - PDFReader (~> 2.5)
+  - SwiftyJSON
+  - TKImageShowing
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bolts
+    - Bolts-Swift
+    - Charts
+    - CropViewController
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - MRProgress
+    - Parse
+    - ParseLiveQuery
+    - PDFReader
+    - SDWebImage
+    - Starscream
+    - SwiftyGif
+    - SwiftyJSON
+    - TKImageShowing
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
+  Charts: 888b39ae772b3dc79d0a0e659f0419ff9bd3e963
+  CropViewController: 3489bbf95a3e11c654382b0bae08ac645cdf1b93
+  DKCamera: a902b66921fca14b7a75266feb8c7568aa7caa71
+  DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
+  DKPhotoGallery: b3834fecb755ee09a593d7c9e389d8b5d6deed60
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  Parse: 6d572042e2c171414c677acabcd9bab7bbf51264
+  ParseLiveQuery: 7bc437c3b986880ffe5f241a9921e37f45df0677
+  PDFReader: 2c4a845d0560f33221cf911516e3b700967680f6
+  SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
+  Starscream: fb2c4510bebf908c62bd383bcf05e673720e91fd
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TKImageShowing: 771d31183fd6533509421d2d137d4a59e771fc9e
+
+PODFILE CHECKSUM: 2714176990f4eb39f8e3d64c626b8da5e439e093
+
+COCOAPODS: 1.16.2

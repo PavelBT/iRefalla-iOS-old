@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1FECDCFD-5FB9-455A-8AB3-0C547E7D2B7A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3023EA71-E93E-496C-AFF8-1F88BEAA55AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DBmanager.swift"
+            timestampString = "498499193.610729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "consultaRegistros()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAA48982-1A49-42C7-859A-3CAE39293E77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DBmanager.swift"
+            timestampString = "498499193.610729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "consultaRegistros()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D93E85CD-0030-4BFF-8ADE-FD824BDF07EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/RegistrosDeFallasViewController.swift"
+            timestampString = "509933698.318379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "511"
+            endingLineNumber = "511"
+            landmarkName = "prepareForSegue(segue:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6820AE41-CF22-4D2F-8014-6DB98A2146CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DataWeb.swift"
+            timestampString = "510256223.553137"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "726"
+            endingLineNumber = "726"
+            landmarkName = "RegistroActualizar(registro:registroOK:imagenOK:climaOK:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDD49602-CB29-4747-B91A-18257CE22606"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/RegistrosDeFallasViewController.swift"
+            timestampString = "509211022.55272"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
+            landmarkName = "saveRegistroFalla(segue:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EDD49602-CB29-4747-B91A-18257CE22606 - 3de8b777ea8f9be9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.RegistrosDeFallasViewController.saveRegistroFalla (__ObjC.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/RegistrosDeFallasViewController.swift"
+                  timestampString = "501623726.438579"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "3052">
+               </Location>
+               <Location
+                  uuid = "EDD49602-CB29-4747-B91A-18257CE22606 - 3de8b777ea8f9be9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.RegistrosDeFallasViewController.saveRegistroFalla (__ObjC.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/RegistrosDeFallasViewController.swift"
+                  timestampString = "501623726.440861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "3120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF2E9651-9C5F-40C8-9CAC-6337EBCFCA40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/RegistrosDeFallasViewController.swift"
+            timestampString = "509211022.55272"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "357"
+            endingLineNumber = "357"
+            landmarkName = "saveRegistroFalla(segue:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF2E9651-9C5F-40C8-9CAC-6337EBCFCA40 - 3de8b777ea8f9820"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.RegistrosDeFallasViewController.saveRegistroFalla (__ObjC.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/RegistrosDeFallasViewController.swift"
+                  timestampString = "501214849.375669"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "387"
+                  endingLineNumber = "387"
+                  offsetFromSymbolStart = "6168">
+               </Location>
+               <Location
+                  uuid = "EF2E9651-9C5F-40C8-9CAC-6337EBCFCA40 - 3de8b777ea8f9820"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.RegistrosDeFallasViewController.saveRegistroFalla (__ObjC.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/RegistrosDeFallasViewController.swift"
+                  timestampString = "501214849.37796"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "387"
+                  endingLineNumber = "387"
+                  offsetFromSymbolStart = "6236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CB836F2-CE97-47B7-B134-FBE487F87738"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/ConsultaDeFallaTableViewController.swift"
+            timestampString = "509934741.949605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "prepareForSegue(segue:sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7CB836F2-CE97-47B7-B134-FBE487F87738 - 817cd2e5ae92c270"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.ConsultaDeFallaTableViewController.prepareForSegue (__ObjC.UIStoryboardSegue, sender : Swift.Optional&lt;Swift.AnyObject&gt;) -&gt; ()"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/ConsultaDeFallaTableViewController.swift"
+                  timestampString = "501214849.383436"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "5748">
+               </Location>
+               <Location
+                  uuid = "7CB836F2-CE97-47B7-B134-FBE487F87738 - 817cd2e5ae92c270"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.ConsultaDeFallaTableViewController.prepareForSegue (__ObjC.UIStoryboardSegue, sender : Swift.Optional&lt;Swift.AnyObject&gt;) -&gt; ()"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/ConsultaDeFallaTableViewController.swift"
+                  timestampString = "501214849.386064"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "5816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2163823D-2B13-4826-ADB8-C5DA5A620E1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DataWeb.swift"
+            timestampString = "510256223.553137"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "849"
+            endingLineNumber = "849"
+            landmarkName = "CargaUbicacion(idCNN:x:y:ubicacionFalla:cargaOK:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDF5DEEF-8A93-4177-A5BD-82F6B486E611"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DataWeb.swift"
+            timestampString = "510256223.553137"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "704"
+            endingLineNumber = "704"
+            landmarkName = "RegistroActualizar(registro:registroOK:imagenOK:climaOK:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7E621DE-AAAC-4D7D-AAF5-53A7C5C0881C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/RegistroFallaViewController.swift"
+            timestampString = "507583842.071642"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "407"
+            endingLineNumber = "407"
+            landmarkName = "prepareForSegue(segue:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71084A4A-A148-4321-85C7-B22CABC954F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DataWeb.swift"
+            timestampString = "510256223.553137"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "906"
+            endingLineNumber = "906"
+            landmarkName = "consultaKML(subestacion:circuito:layers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AF0BB41-A23A-48AE-8F52-0B56C7E885DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DataWeb.swift"
+            timestampString = "508534301.146493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "RegistroConsulta(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA15826B-9D0E-4204-8760-E714B07C1CEC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DataWeb.swift"
+            timestampString = "508535390.776707"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "RegistroConsulta(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "899C6155-F7BC-4EA1-B753-B0E6D7875602"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/RegistrosDeFallasViewController.swift"
+            timestampString = "509210807.824114"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "registrosPend()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "899C6155-F7BC-4EA1-B753-B0E6D7875602 - 60494a62c67ca079"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.RegistrosDeFallasViewController.registrosPend () -&gt; ()"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/RegistrosDeFallasViewController.swift"
+                  timestampString = "509211023.939721"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "899C6155-F7BC-4EA1-B753-B0E6D7875602 - 8e53bc391f4bd2a9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iReFalla.RegistrosDeFallasViewController.(registrosPend () -&gt; ()).(closure #1)"
+                  moduleName = "iReFalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pavel/Dropbox/X-Code%20Project/iReFalla/iReFalla/RegistrosDeFallasViewController.swift"
+                  timestampString = "509211023.944278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE80408C-879D-4407-A1EB-B29B6E617BEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/views/ClientesTableViewController.swift"
+            timestampString = "509915974.523982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "loadUsuarios()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72692495-1DCE-4E3D-9420-1E70356AEE89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/RegistrosDeFallasViewController.swift"
+            timestampString = "509933466.259159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "449"
+            endingLineNumber = "449"
+            landmarkName = "prepareForSegue(segue:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5C55377-98FA-41AB-ACF3-95F5CE25E62E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/ImagenViewController.swift"
+            timestampString = "510201710.964374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "viewForZoomingInScrollView(scrollView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A7C3DB5-F06D-4784-9968-64709ACB7F68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/RegistrosDeFallasViewController.swift"
+            timestampString = "510075377.540063"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "441"
+            endingLineNumber = "441"
+            landmarkName = "prepareForSegue(segue:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E265A025-D703-4E0C-89E6-AD0EF4471844"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iReFalla/Data/DataWeb.swift"
+            timestampString = "510256312.756595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "RegistroConsulta(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C9805C2-6C74-49E6-B42E-F87194CECD2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iRefalla/ParseFunctionsManager.swift"
+            timestampString = "565064619.214483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getParseFunction(filter:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "108DF285-B450-4F46-8F68-9783F6B8C866"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iRefalla/EnumCollection.swift"
+            timestampString = "572573813.05083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "cases()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "E14EAB7C-4294-44DD-8ECB-491E202FF793"
+            shouldBeEnabled = "Yes"
+            condition = "-[NSObject(NSObject) doesNotRecognizeSelector:]"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7053BC7B-051B-41DC-9670-B9E1BA3B8839"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iRefalla/MapTileOverlay.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "url(forTilePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
