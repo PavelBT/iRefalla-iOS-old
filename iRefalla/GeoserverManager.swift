@@ -53,7 +53,7 @@ extension GeoserverManager {
     
     static func getCapabilities(layers: @escaping ([String]?) -> Void) {
         let urlString = baseURL + "&request=GetCapabilities"
-        Alamofire.request(urlString).validate()
+        AF.request(urlString).validate()
             .responseData { (response) in
                 switch response.result {
                 case .success(let data):

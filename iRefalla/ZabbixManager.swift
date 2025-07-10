@@ -66,7 +66,7 @@ extension ZabbixManager {
         ZabbixServer.id += 1
 //        print(params as Any)
         getParams(method: method, params: params) { (parameters) in
-            Alamofire.request(ZabbixServer.url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: header)
+            AF.request(ZabbixServer.url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: header)
                 .validate()
                 .responseJSON(completionHandler: { (response) in
 //                    print(response.value as Any)

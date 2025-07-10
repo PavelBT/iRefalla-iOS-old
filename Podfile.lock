@@ -1,10 +1,11 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (5.10.2)
   - Bolts-Swift (1.5.0)
   - Bolts/Tasks (1.9.1)
-  - Charts (3.6.0):
-    - Charts/Core (= 3.6.0)
-  - Charts/Core (3.6.0)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
   - CropViewController (2.7.4)
   - DKCamera (1.6.7)
   - DKImagePickerController (4.3.9):
@@ -95,22 +96,23 @@ PODS:
   - SDWebImage (5.2.5):
     - SDWebImage/Core (= 5.2.5)
   - SDWebImage/Core (5.2.5)
-  - Starscream (4.0.6)
+  - Starscream (4.0.8)
+  - SwiftAlgorithms (1.0.0)
   - SwiftyGif (5.4.5)
-  - SwiftyJSON (5.0.1)
+  - SwiftyJSON (5.0.2)
   - TKImageShowing (1.1.0):
     - SDWebImage (~> 5.2.3)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.4)
-  - Charts
+  - Alamofire (~> 5.9)
+  - Charts (~> 4.1)
   - DKImagePickerController
   - MRProgress
-  - Parse
-  - ParseLiveQuery
-  - PDFReader (~> 2.5)
-  - SwiftyJSON
-  - TKImageShowing
+  - Parse (~> 1.19)
+  - ParseLiveQuery (~> 2.8)
+  - PDFReader (~> 2.5.1)
+  - SwiftyJSON (~> 5.0)
+  - TKImageShowing (~> 1.1)
 
 SPEC REPOS:
   trunk:
@@ -128,15 +130,16 @@ SPEC REPOS:
     - PDFReader
     - SDWebImage
     - Starscream
+    - SwiftAlgorithms
     - SwiftyGif
     - SwiftyJSON
     - TKImageShowing
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
   Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
-  Charts: 888b39ae772b3dc79d0a0e659f0419ff9bd3e963
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
   CropViewController: 3489bbf95a3e11c654382b0bae08ac645cdf1b93
   DKCamera: a902b66921fca14b7a75266feb8c7568aa7caa71
   DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
@@ -146,11 +149,12 @@ SPEC CHECKSUMS:
   ParseLiveQuery: 7bc437c3b986880ffe5f241a9921e37f45df0677
   PDFReader: 2c4a845d0560f33221cf911516e3b700967680f6
   SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
-  Starscream: fb2c4510bebf908c62bd383bcf05e673720e91fd
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
   SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   TKImageShowing: 771d31183fd6533509421d2d137d4a59e771fc9e
 
-PODFILE CHECKSUM: 2714176990f4eb39f8e3d64c626b8da5e439e093
+PODFILE CHECKSUM: 83bbe7d74769f77dc9f60a683e692095c33f8998
 
 COCOAPODS: 1.16.2
