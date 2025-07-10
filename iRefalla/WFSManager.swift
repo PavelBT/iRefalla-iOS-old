@@ -44,7 +44,7 @@ extension WFSManager {
         let filterStr = filter != nil ? "cql_filter=" + filter! : ""
         let url = Self.serviceURL + "&typeNames=\(Self.layerName)&\(filterStr)&outputFormat=application/json"
         var array = [Self]()
-        Alamofire.request(url)
+        AF.request(url)
             .validate()
             .responseData { (response) in
                 switch response.result {

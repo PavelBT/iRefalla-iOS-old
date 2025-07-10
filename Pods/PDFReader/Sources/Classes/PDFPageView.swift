@@ -87,7 +87,7 @@ internal final class PDFPageView: UIScrollView {
         }
         
         contentView.addSubview(backgroundImageView)
-        contentView.sendSubviewToBack(backgroundImageView)
+        contentView.sendSubview(toBack: backgroundImageView)
         contentView.addSubview(tiledPDFView)
         addSubview(contentView)
         
@@ -104,7 +104,7 @@ internal final class PDFPageView: UIScrollView {
         singleTapOne.require(toFail: doubleTapOne)
         
         bouncesZoom = false
-        decelerationRate = UIScrollView.DecelerationRate.fast
+        decelerationRate = UIScrollViewDecelerationRateFast
         delegate = self
         autoresizesSubviews = true
         autoresizingMask = [.flexibleHeight, .flexibleWidth]
