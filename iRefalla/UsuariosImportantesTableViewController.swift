@@ -14,7 +14,7 @@ fileprivate let cellID = "uicell"
 class UsuariosImportantesTableViewController: UITableViewController, ParseTableViewProtocol {
     
     var array: [ParseManager]?
-    var arrayFiltred: [ParseManager]?
+    var filteredArray: [ParseManager]?
     var filter: [queryParams]?
     var searchController = UISearchController(searchResultsController: nil)
     
@@ -28,8 +28,8 @@ class UsuariosImportantesTableViewController: UITableViewController, ParseTableV
             navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancelar", style: .plain, target: self, action: #selector(dismissView))
         }
         
-        loadData(clase: UsuarioImportante.self, page: 0)
-        loadSeachBar(placeholder: "Nombre, Giro", scopeTitles: ["Hospital", "Agua"])
+        loadData(type: UsuarioImportante.self, page: 0)
+        loadSearchBar(placeholder: "Nombre, Giro", scopeTitles: ["Hospital", "Agua"])
         
         tableView.estimatedRowHeight = 180.0
         tableView.rowHeight = UITableView.automaticDimension
@@ -50,7 +50,7 @@ class UsuariosImportantesTableViewController: UITableViewController, ParseTableV
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         if searchBarActive {
-            return arrayFiltred?.count ?? 0
+            return filteredArray?.count ?? 0
         } else {
             return array?.count ?? 0
         }
@@ -100,7 +100,7 @@ extension UsuariosImportantesTableViewController: SearchBarTableViewProtocol {
     
     func filterContentForSearchText(searchBarText: String, scope: String) {
         if searchBarText != "" && searchBarText != " " {
-            arrayFiltred = array?.filter({ (r) -> Bool in
+            filteredArray = array?.filter({ (r) -> Bool in
                 let row = r as! UsuarioImportante
                 let nombre = row.nombre.lowercased()
                 let giro = row.giro.lowercased()

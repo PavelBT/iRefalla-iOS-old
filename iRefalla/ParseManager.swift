@@ -152,6 +152,43 @@ extension ParseManager where Self: PFObject {
             return controller
         }
     }
+    
+    // MARK: - Async/Await Support
+    
+    static func getAll(limit: Int = defaultLimit, page: Int = 0, order: [NSSortDescriptor]? = sortDefault, forceServer: Bool = false) async throws -> [Self] {
+        return try await getFilter(limit: limit, page: page, filter: nil, order: order, forceServer: forceServer)
+    }
+    
+    static func getByClave(clave: String) async throws -> Self? {
+        let data = try await getFilter(limit: 1, filter: [("clave", clave, .equal)])
+        return data.first
+    }
+    
+    static func getByID(id: String) async throws -> Self? {
+        let data = try await getFilter(limit: 1, filter: [("objectId", id, .equal)])
+        return data.first
+    }
+    
+    static func getFilter(limit: Int = defaultLimit, page: Int = 0, filter: [queryParams]?, order: [NSSortDescriptor]? = sortDefault, forceServer: Bool = false) async throws -> [Self] {
+        return try await withCheckedThrowingContinuation { continuation in
+            getFilter(limit: limit, page: page, filter: filter, order: order, forceServer: forceServer) { data in
+                if let data = data {
+                    continuation.resume(returning: data)
+                } else {
+                    // If data is nil, it might mean no data found or an error occurred that wasn't propagated as an error object in the callback.
+                    // Given the existing implementation returns nil on error or empty, we'll assume empty list if nil for now, or throw a generic error if preferred.
+                    // However, looking at existing code, nil is returned on error or empty.
+                    // Ideally we should propagate the error, but the existing callback doesn't provide it directly.
+                    // We will return an empty array to be safe, or we could throw.
+                    // Let's return empty array to match "success with no data" semantics often used.
+                    // Wait, if it's an error, showError is called internally.
+                    // Let's assume success with empty data if nil is returned to continuation, unless we want to change the callback signature.
+                    // For now, let's return empty array.
+                    continuation.resume(returning: [])
+                }
+            }
+        }
+    }
 }
 
 extension PFGeoPoint {

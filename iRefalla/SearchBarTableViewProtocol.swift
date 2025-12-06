@@ -8,33 +8,31 @@
 
 import Foundation
 
-protocol SearchBarTableViewProtocol:UITableViewController, UISearchBarDelegate, UISearchResultsUpdating {
+protocol SearchBarTableViewProtocol: UISearchBarDelegate, UISearchResultsUpdating {
     var searchController: UISearchController {get}
     var array: [ParseManager]? {get set}
-    var arrayFiltred: [ParseManager]? {get set}
+    var filteredArray: [ParseManager]? {get set}
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int)
     func updateSearchResults(for searchController: UISearchController)
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
     func filterContentForSearchText(searchBarText: String, scope: String)
 }
 
-extension SearchBarTableViewProtocol where Self: UITableViewController {
+extension SearchBarTableViewProtocol where Self: UIViewController {
     
     var searchBarActive: Bool {
         return searchController.isActive
     }
     
-    func selectedRow<T>(index: Int) -> T {
-        var row: T!
+    func selectedRow<T>(index: Int) -> T? {
         if searchBarActive {
-            row = self.array?[index] as? T
+            return self.filteredArray?[index] as? T
         } else {
-            row = self.array?[index] as? T
+            return self.array?[index] as? T
         }
-        return row
     }
     
-    func loadSeachBar(placeholder: String, scopeTitles: [String]? = nil, hide:Bool = true) {
+    func loadSearchBar(placeholder: String, scopeTitles: [String]? = nil, hide:Bool = true) {
         
         searchController.searchResultsUpdater = self
         searchController.searchBar.delegate = self
@@ -43,35 +41,12 @@ extension SearchBarTableViewProtocol where Self: UITableViewController {
         searchController.searchBar.scopeButtonTitles = scopeTitles
         searchController.extendedLayoutIncludesOpaqueBars = false
         
-//        // CONFIGURAR COLORES A BLANCO
-//        if navigationController?.navigationBar.barStyle != UIBarStyle.default {
-//            searchController.searchBar.tintColor = UIColor.white
-//            if let textfield = searchController.searchBar.value(forKey: "searchField") as? UITextField {
-//                if let backgroundview = textfield.subviews.first {
-//                    // Background color
-//                    backgroundview.backgroundColor = UIColor.gray
-//                    // Rounded corner
-//                    backgroundview.layer.cornerRadius = 10;
-//                    backgroundview.clipsToBounds = true;
-//                }
-//            }
-//        }
-        
         if #available(iOS 11.0, *) {
             self.navigationItem.searchController = searchController
             self.navigationItem.hidesSearchBarWhenScrolling = hide
         } else {
-            tableView.tableHeaderView = searchController.searchBar
-            print("searcbar en table view")
-        }
-        
-        //OCULTAR LA BARRA DE BUSQUEDA
-        if hide {
-            var newBounds : CGRect? = self.tableView.bounds
-            newBounds?.origin.y = 0
-            newBounds?.origin.y += searchController.searchBar.bounds.height
-            self.tableView.bounds = newBounds!
-            
+            // Fallback for older iOS versions if needed, or just ignore
+             print("searchBar in table view header not supported in this protocol extension directly without tableview access")
         }
     }
 }

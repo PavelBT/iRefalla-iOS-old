@@ -32,14 +32,7 @@ class TableViewSearchBar: UITableViewController {
         self.title = configTable.title
         self.navigationController?.navigationBar.prefersLargeTitles = configTable.preferLargeTitles
         
-        if #available(iOS 13.0.0, *) {
-            if configTable.forceCancelButton {
-                self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancelar", style: .plain, target: self, action: #selector(dismissView))
-            }
-            
-        } else {
-            self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancelar", style: .plain, target: self, action: #selector(dismissView))
-        }
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancelar", style: .plain, target: self, action: #selector(dismissView))
         
         if configTable.searchBarEnable {
              loadSearchBar()
@@ -88,10 +81,8 @@ extension TableViewSearchBar: UISearchBarDelegate, UISearchResultsUpdating  {
         
         if #available(iOS 11.0, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
-        } else {
-            // Fallback on earlier versions
         }
-//        searchController.dimsBackgroundDuringPresentation = false
+        
         searchController.searchBar.placeholder = self.configTable.placeholder
         searchController.searchBar.searchBarStyle =  .default
         searchController.searchBar.scopeButtonTitles = self.configTable.scopeTitles
@@ -99,26 +90,11 @@ extension TableViewSearchBar: UISearchBarDelegate, UISearchResultsUpdating  {
         searchController.searchBar.showsSearchResultsButton = true
         searchController.obscuresBackgroundDuringPresentation = false
         
-        // CONFIGURAR COLORES A BLANCO
-        if self.navigationController?.navigationBar.barStyle != UIBarStyle.default {
-            searchController.searchBar.tintColor = UIColor.white
-            if let textfield = searchController.searchBar.value(forKey: "searchField") as? UITextField {
-                if let backgroundview = textfield.subviews.first {
-                    // Background color
-                    backgroundview.backgroundColor = UIColor.gray
-                    // Rounded corner
-                    backgroundview.layer.cornerRadius = 10;
-                    backgroundview.clipsToBounds = true;
-                }
-            }
-        }
-        
         if #available(iOS 11.0, *) {
             self.navigationItem.searchController = searchController
             self.navigationItem.hidesSearchBarWhenScrolling = self.configTable.searchBarHidden
         } else {
             self.tableView.tableHeaderView = searchController.searchBar
-            print("searcbar en table view")
         }
         
         definesPresentationContext = true
